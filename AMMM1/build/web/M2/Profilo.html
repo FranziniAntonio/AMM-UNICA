@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Nerdbook</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Nerdbook">
+        <meta name="description" content="Il social per Nerd">
+        <meta name="author" content="Antonio Franzini">
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+    </head>
+    
+    <body>
+       <nav>
+        <div id="titolo"><p>Nerdbook</p></div>
+            <ul>
+                <li><a href="Bacheca.html">Bacheca</a></li>
+                <li><a href="Profilo.html">Profilo</a></li>
+                <li><a href="Login.html">Login</a></li>
+            </ul>
+        
+    </nav>
+    
+   <div id="sidebar">
+            <p>Persone</p>
+                <ul>
+                    <li>Monkey D. Rufy</li>
+                    <li>Roronoa Zoro</li>
+                    <li>Vinsmoke Sanji</li>
+                </ul>
+            <p>Gruppi</p>
+                <ul>
+                    <li>Mugiwara</li>
+                    <li>Marina</li>
+                    <li>Flotta dei Sette</li>
+                    <li>Draghi Celesti</li>
+                </ul>
+    </div>
+
+  <div id='inputarea'>
+            
+     <form action="Bacheca.html" method="post">
+       
+        <label for="Nome">Nome</label>
+        <input type="text" name="Nome" id="Nome">
+        
+        <label for="Cognome">Cognome</label>
+        <input type="text" name="Cognome" id="Cognome">
+        
+        <label for="Propic">Url Immagine Profilo</label>
+           <input type="url" name="Propic" id="Propic">
+           
+        <label for="Presentazione">Presentazione</label>
+           <textarea name="Presentazione" id="Presentazione" 
+                        cols="50" rows="10">Presentazione Utente</textarea>
+                        
+        <label for="Date">Data di Nascita:</label>
+                <input type="date" name="Date" id="Date" min="2000-01-02">   
+           
+        <label for="Psw">Password:</label>
+                <input type="password" name="Psw" id="Psw" value="hidden">
+                
+         <label for="Psw2">Conferma Password:</label>
+                <input type="password" name="Psw2" id="Psw2" value="hidden">
+    
+    <button type="submit">Registrati</button>
+     </form>
+    </div>       
+    </body>
+</html>

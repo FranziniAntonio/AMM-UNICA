@@ -1,0 +1,270 @@
+
+a:link
+{
+    color: white;
+}
+
+a:visited
+{
+    color: white;
+}
+
+a:hover
+{
+    color: white; 
+}
+
+h1, h2, h3, p,li{
+    font-family: Verdana, Times New Roman, sans-serif;
+    color: black;
+        
+}
+body {
+    
+margin:0;
+padding:0;
+height:100%;
+background-color: lightsteelblue;
+}
+
+/* Css Login.html*/
+#LoginForm button {
+    background-color: background;
+    border: blue;
+    color: white;
+    padding: 10px 65px;
+    text-align: center;
+    display: inline-block;
+    font-size: 17px;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 20px;
+}
+
+#LoginForm {	
+    
+    display: table;
+    margin-left: 44.5%;
+    text-align: center;
+    
+}
+
+#LoginForm label {
+    display: block;
+    
+}
+
+.logo {
+    
+    margin-left: 45%;
+}
+
+#navLogin{
+    
+    border-top: black;
+    
+}
+
+/*CSS Bacheca*/
+
+#titolo{
+    
+    text-align: left;
+    
+}
+
+nav{
+    height: 10%;
+    width: 100%;
+    background-color: #4267b2;
+    text-align: center;
+    float:right;
+    
+    
+    }
+ 
+ 
+#bacheca{
+      height: 90%;
+      width: 90%;
+      float: right;
+      
+    }
+
+    
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      margin-left: 0;
+      
+}
+
+nav li {
+    
+    display: inline-block;
+    margin: 20px;
+    
+}
+
+li img{
+        
+      width: 120px;
+      height: 120px;
+      
+    }
+    
+#user1 {
+        
+        border-radius: 10px;
+        
+    }
+    
+#user1 ,#user2,#user3{
+    
+        border-style: inset;
+        border-radius: 10px;
+        margin-right: 30px;
+    }
+
+#sidebar{
+    background-color: lightgray;
+    text-align: justify;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 10px;
+    display: block;
+    position: relative;   
+    padding: 15px;
+    width: 10%;
+    max-width: 130px;
+    padding-bottom: 80%;
+    float: left;
+    box-shadow: 0 0 5px black;
+}
+
+/*CSS Form Registrazione*/
+
+#inputarea input,#inputarea label,#inputarea textarea
+{	
+    display: block;
+    position: relative;
+    left:35%;
+    
+}
+
+
+#inputarea form 
+{
+    width:90%;
+    
+    
+}
+
+#inputarea form label 
+{	
+    text-align:left;
+    padding: 10px 0;
+    font: initial;
+}
+
+#footform
+{
+    text-align: left;
+    position: relative;
+    left:40%;
+    bottom: 10%;
+    
+    
+  
+}
+
+#inputarea button {
+    background-color: background;
+    border: blue;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 30px;
+    position: relative;
+    left: 40%;
+    border-radius: 10px;
+}
+
+#LoginForm button {
+    background-color: background;
+    border: blue;
+    color: white;
+    padding: 10px 65px;
+    text-align: center;
+    display: inline-block;
+    font-size: 17px;
+    border-radius: 10px;
+    position: relative;
+    left: 35%;
+    margin-top: 20px;
+}
+
+#LoginForm input
+{	
+    display: block;
+    position: relative;
+    left:35%;
+    
+}
+
+#LoginForm label
+{
+    display: block;
+    position: relative;
+    left:35%;
+    
+}
+
+/*CSS Descrizione*/
+
+#Descrizione{
+    
+    background-color: lightsteelblue;
+    
+}
+
+#navDescrizione{
+    
+    background-color: lightsteelblue;
+    
+}
+
+#titoloDescrizione{
+    
+    height: 10%;
+    width: 100%;
+    margin-bottom: 0px;
+    background-color: #4267b2;
+    color:white;
+    margin-top: 0px;
+    margin-top: 0px;
+}
+
+#Legenda {
+    
+    background-color: lightgray;
+    text-align: justify;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 10px;
+    display: block;
+    position: relative;   
+    padding: 15px;
+    width: 10%;
+    max-width: 130px;
+    padding-bottom: 80%;
+    float: left;
+    box-shadow: 0 0 5px black;
+    
+}
+
+    
+
